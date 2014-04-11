@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/examples.css">
+		<script type="text/javascript" src="js/examples.js"></script>
+		<title>item</title>
+	</head>
+
+	<body>
+
+		<style type="text/css">
+label  { display: inline-block; vertical-align: middle;  width: 50px;  height: 50px; position: relative; }
+label input { margin: 0;  opacity: 0;  position: absolute;  top: 0; left: 0; }
+label span {
+  position: absolute;  left: 50%;  top: 50%;  margin: -11px 0 0 -27px;
+  width: 54px;  height: 22px;  pointer-events: none;  border: solid 1px #c2c2c2;  border-radius: 54px;
+  overflow: hidden;  background: url(img/switch/handler.png) no-repeat -2px center;
+  transition: background 0.18s ease;
+}
+
+		</style>
+		<pre><style class="example" contenteditable>
+  label input + span:after,
+  label input + span:before {
+  	content: "";  position: absolute;  top: 0;  bottom: 0;
+  	width: 54px;  z-index: -1;  transition: transform 0.2s ease;
+  }
+
+  label input + span:before {  right: 100%;  background: #00c3ea url(img/switch/icon.png) no-repeat 5px center; }
+  label input + span:after {  left: 100%;  background: #e6e6e6;  transform: translateX(-54px); }
+
+  label input:checked + span {  border-color: #00acce;  background-position: 32px center;}
+  label input:checked + span:before {  transform: translateX(54px);}
+  label input:checked + span:after { transform: translateX(0);}
+		</style></pre>
+		<button id="xray">X-Ray</button>
+		<div id="example" style="text-align: center;">
+			<label>
+				<input type="checkbox">
+				<span></span>
+			</label>
+		</div>
+
+	</body>
+</html>

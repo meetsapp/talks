@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/examples.css">
+		<script type="text/javascript" src="js/examples.js"></script>
+		<title>item</title>
+	</head>
+
+	<body>
+
+		<style type="text/css">
+label  { display: inline-block; vertical-align: middle;  width: 50px;  height: 50px; position: relative; }
+label input { margin: 0;  opacity: 0;  position: absolute;  top: 0; left: 0; }
+label span {
+	position: absolute;  left: 50%;  top: 50%;
+	margin: -11px 0 0 -11px;  width: 22px;  height: 22px; pointer-events: none;
+	background: transparent no-repeat center top;
+}
+		</style>
+		<pre><style class="example" contenteditable>
+  label input { opacity: 0; position: absolute; top: 0; left: 0; }
+  label input[type="checkbox"] + span { background-image: url(img/check/default.png);}
+  label input[type=radio] + span { background-image: url(img/radio/default.png); }
+  label input:checked + span { background-position: center bottom; }
+		</style></pre>
+		<button id="xray">X-Ray</button>
+		<div id="example" style="text-align: center;">
+			<label>
+				<input type="checkbox">
+				<span></span>
+			</label>
+
+			<label>
+				<input type="radio" name="example">
+				<span></span>
+			</label>
+
+			<label>
+				<input type="radio" name="example">
+				<span></span>
+			</label>
+		</div>
+
+	</body>
+</html>

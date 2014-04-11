@@ -1,0 +1,79 @@
+/* Defaults */
+html, body {
+	font: 16px/1em Sans-serif;
+	color: #333;
+}
+
+a { color: #8B743D; text-decoration: none; }
+
+form fieldset { border: none; }
+input { height: 25px; }
+
+
+/* Example wrapper */
+iframe.example {
+	width: 100%;
+	height: 100%;
+	display: block;
+	min-height: 600px; /* equal as reveal <section> */
+}
+
+pre {
+	margin-bottom: 10px;
+	line-height: 20px;
+	overflow: auto;
+	background: #333;
+	color: #ddd;
+}
+
+style.example {
+	display: block!important;
+}
+
+style.example::-moz-selection {
+	background: #2891fc;
+	color: #0a2f55;
+}
+
+[contenteditable]:focus {
+	outline: none;
+}
+
+
+/* X-ray */
+#xray {
+	width: 100px;
+	margin: 0 auto 25px;
+	display: block;
+}
+
+#xray:after {
+	content: "";
+	height: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-top: 25px;
+	border-bottom: dashed 2px rgba(0, 0, 0, 0.1);
+}
+
+.xray, .xray > * {
+	color: transparent!important;
+	background: transparent!important;
+}
+
+.xray {
+	outline: solid 1px red!important;
+}
+
+.xray > * {
+	outline: solid 1px blue!important;
+}
+
+.xray > *  > * {
+	outline: solid 1px black!important;
+}
+
+.xray > *:nth-child(odd) {
+	outline: solid 1px green!important;
+}

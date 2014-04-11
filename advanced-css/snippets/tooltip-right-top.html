@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/examples.css">
+		<script type="text/javascript" src="js/examples.js"></script>
+		<title>item</title>
+	</head>
+
+	<body>
+
+		<style type="text/css">
+		  button { position: relative; }
+  .tooltip {
+  	position: absolute; width: 600px; text-align: center;
+  }
+  .tooltip .inner {
+  	background: #000; font-size: 38px; line-height: 66px; color: #fff; border-radius: 10px;
+  	display: inline-block; padding: 0 15px;
+  }
+  .tooltip .inner:before {
+  	content: ""; width: 0; height: 0; border: solid 15px transparent;
+  	position: absolute;
+  }
+		</style>
+		<pre><style class="example" contenteditable>
+  .right { right: -15px; margin-right: 0; text-align: right; }
+  .right .inner:before { right: 0; margin-right: 15px; }
+
+  .top { bottom: 100%; margin-bottom: 15px; }
+  .top .inner:before { top: 100%; border-top-color: #000; }
+		</style></pre>
+		<button id="xray">X-Ray</button>
+		<div id="example" style="text-align: center;">
+			<button contenteditable="true">
+				Some action
+				<span class="tooltip right top" contenteditable="true">
+					<span class="inner">
+						Hey!
+					</span>
+				</span>
+			</button>
+		</div>
+
+	</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/examples.css">
+		<script type="text/javascript" src="js/examples.js"></script>
+		<title>item</title>
+	</head>
+
+	<body>
+		<style type="text/css">
+.selectfield { position: relative; display: inline-block; vertical-align: middle; }
+.selectfield select {    -moz-appearance: none;    background: #fff;    border: solid 1px #E0E0E0;    border-top-color: #CBCBCB;    border-radius: 4px 4px 4px 4px;    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.1) inset;    display: inline-block;    padding: 9px 32px 7px 6px;    -moz-padding-end: 10px;    transition: box-shadow 0.3s ease 0s, border-color 0.2s ease 0s;    white-space: nowrap;    width: 100%;    margin: 0;    position: relative;    z-index: 1;}
+.selectfield select:focus {  border-color: #3DADD9;    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.1) inset, 0 0 6px 0 rgba(61, 173, 217, 0.6);    outline: none;}
+.selectfield:after, .selectfield:before {    content: "";    display: block;    pointer-events: none;    position: absolute;z-index: 2;}
+.selectfield:after { border: solid 4px transparent;    border-top-color: #666;    height: 0;    margin-top: -1px;    right: 9px;    top: 50%;    vertical-align: middle;width: 0;}
+.selectfield:before { background: linear-gradient(#F5F5F5, #F2F2F2) repeat scroll 0 0 transparent;    border-left: 1px solid #E2E2E2;    border-radius: 0 4px 4px 0;    bottom: 1px;    box-shadow: 0 1px rgba(255, 255, 255, 0.75) inset;    pointer-events: none;    right: 1px;    top: 1px; width: 24px;}
+		</style>
+		<pre><style class="example" contenteditable>
+  .selectfield select {
+  	-moz-appearance: none; padding: 9px 32px 7px 6px; -moz-padding-end: 10px;
+  	transition: box-shadow 0.3s ease 0s, border-color 0.2s ease 0s; white-space: nowrap;
+  }
+  .selectfield:after, .selectfield:before { content: ""; display: block; pointer-events: none; position: absolute;z-index: 2; }
+  .selectfield:after {
+  	border: solid 4px transparent; border-top-color: #666; height: 0; width: 0;
+  	margin-top: -1px; right: 9px; top: 50%;
+  }
+		</style></pre>
+		<button id="xray">X-Ray</button>
+		<div id="example" style="text-align: center;">
+			<div class="selectfield">
+				<select>
+					<option>Opción 1</option>
+					<option>Opción 2</option>
+					<option>Opción 3</option>
+					<option>Opción 4</option>
+				</select>
+			</div>
+		</div>
+
+	</body>
+</html>

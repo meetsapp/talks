@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/examples.css">
+		<script type="text/javascript" src="js/examples.js"></script>
+		<title>item</title>
+	</head>
+
+	<body>
+
+		<pre><style class="example" contenteditable>
+  button { position: relative; }
+  .tooltip {
+  	background: #000; font-size: 38px; line-height: 66px; color: #fff; border-radius: 10px;
+  	position: absolute; left: 50%; top: 100%; width: 130px; margin: 15px 0 0 -65px;
+  }
+
+  .tooltip:before {
+  	content: ""; width: 0; height: 0; border: solid 15px transparent; border-bottom-color: #000;
+  	position: absolute; left: 50%; bottom: 100%; margin-left: -15px;
+  }
+		</style></pre>
+		<button id="xray">X-Ray</button>
+		<div id="example" style="text-align: center;">
+			<button>
+				Some action
+				<span class="tooltip" >
+					Hey!
+				</span>
+			</button>
+		</div>
+
+	</body>
+</html>

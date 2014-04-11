@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/examples.css">
+		<script type="text/javascript" src="js/examples.js"></script>
+		<title>item</title>
+	</head>
+
+	<body>
+		<pre><style class="example" contenteditable>
+  label { position: relative; display: inline-block; }
+  input { border: solid 1px #ccc; border-radius: 4px; padding: 6px 10px; width: 200px; }
+  button[type=reset] {
+  	font: 0/0 a; width: 40px; height: 40px; background: url(img/clear.png) no-repeat center center;
+  	position: absolute; right: 0; top: 50%; margin-top: -20px; border: none; opacity: 0;
+  }
+  input:focus:valid + button[type=reset] { opacity: 1; }
+		</style></pre>
+		<button id="xray">X-Ray</button>
+		<form id="example" style="text-align: center;">
+			<label>
+				<input type="text" required>
+				<button type="reset">Clear</button>
+			</label>
+		</form>
+
+	</body>
+</html>
