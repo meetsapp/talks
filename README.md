@@ -3,15 +3,23 @@ Talks made by meetsapp developers
 
 Presentations made for public hack/development events with all needed assets.
 
-If you enjoyed any of theses presentations, or you simply think is a great resource, **help us by sharing it and following us** and the author on twitter.
+If you enjoyed any of these presentations, or you simply believe is a great resource, **help us by sharing it**.
 
-[@meetsapp](http://twitter.com/meetsapp)
+Follow us to stay tuned for new talks/news
+ [@meetsapp](http://twitter.com/meetsapp)
 
 ---
-####advanced-css/
-[Presentation](http://meetsapp.github.io/talks/advanced-css/talk.pdf)
+####advanced-css/ by [@basiclines](http://github.com/basiclines)
+[Presentation PDF](http://meetsapp.github.io/talks/advanced-css/talk.pdf)
 
- * GH: [@basiclines](http://github.com/basiclines)
- * TW: [@basiclines](http://twitter.com/basiclines)
+
+---
+####framerjs/ by [@basiclines](http://github.com/basiclines)
+* [Presentation PDF](http://meetsapp.github.io/talks/framerjs/talk.pdf)
+* [Example 1](http://meetsapp.github.io/talks/framerjs/example-1/index.html)
+* [Example 2](http://meetsapp.github.io/talks/framerjs/example-2/index.html)
+* [Example 3](http://meetsapp.github.io/talks/framerjs/example-3/index.html)
+
+
 
 ---

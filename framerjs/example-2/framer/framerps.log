@@ -1,0 +1,68 @@
+{"docName":"design","path":"~/Desktop/FramerJS/example-2/design","relativeImagePath":"images","imagePath":"~/Desktop/FramerJS/example-2/design/images","framerPath":"~/Desktop/FramerJS/example-2/design/framer","viewInfoPath":"~/Desktop/FramerJS/example-2/design/framer/views.design.js","logPaths":["/tmp/framerps.log","~/Desktop/FramerJS/example-2/design/framer/framerps.log"]}
+
+Running for ~/Desktop/FramerJS/example-2/design
+Could not read data file
+category-selector: Exporting image
+other: Exporting image
+PROGRESS: 13.3333333333333
+dating: Exporting image
+PROGRESS: 16.6666666666667
+travel: Exporting image
+PROGRESS: 20
+meeting: Exporting image
+PROGRESS: 23.3333333333333
+sport: Exporting image
+PROGRESS: 26.6666666666667
+birthday: Exporting image
+PROGRESS: 30
+party: Exporting image
+PROGRESS: 33.3333333333333
+cultural: Exporting image
+PROGRESS: 36.6666666666667
+beers: Exporting image
+PROGRESS: 40
+music: Exporting image
+PROGRESS: 43.3333333333333
+cinema: Exporting image
+PROGRESS: 46.6666666666667
+restaurant: Exporting image
+PROGRESS: 50
+PROGRESS: 50
+PROGRESS: 50
+logo-selected: Exporting image
+PROGRESS: 53.3333333333333
+plan-list: Exporting image
+PROGRESS: 56.6666666666667
+PROGRESS: 56.6666666666667
+create: Exporting image
+navigationbar: Exporting image
+plan-type: Exporting image
+PROGRESS: 66.6666666666667
+category-selected: Exporting image
+selected-restaurant: Exporting image
+PROGRESS: 73.3333333333333
+PROGRESS: 73.3333333333333
+PROGRESS: 73.3333333333333
+add people: Exporting image
+PROGRESS: 80
+date: Exporting image
+PROGRESS: 83.3333333333333
+location: Exporting image
+PROGRESS: 86.6666666666667
+image: Exporting image
+PROGRESS: 90
+description: Exporting image
+PROGRESS: 93.3333333333333
+name: Exporting image
+PROGRESS: 96.6666666666667
+info: Exporting image
+PROGRESS: 100
+PROGRESS: 100
+PROGRESS: 100
+30 views changed
+Writing ~/Desktop/FramerJS/example-2/design/index.html
+Writing ~/Desktop/FramerJS/example-2/design/app.js
+Writing ~/Desktop/FramerJS/example-2/design/framer/framer.js
+Writing ~/Desktop/FramerJS/example-2/design/framer/framerps.js
+
+SUCCESS: ~/Desktop/FramerJS/example-2/design

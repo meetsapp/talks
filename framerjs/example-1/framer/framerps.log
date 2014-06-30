@@ -1,0 +1,42 @@
+{"docName":"design","path":"~/Desktop/FramerJS/example-1/design","relativeImagePath":"images","imagePath":"~/Desktop/FramerJS/example-1/design/images","framerPath":"~/Desktop/FramerJS/example-1/design/framer","viewInfoPath":"~/Desktop/FramerJS/example-1/design/framer/views.design.js","logPaths":["/tmp/framerps.log","~/Desktop/FramerJS/example-1/design/framer/framerps.log"]}
+
+Running for ~/Desktop/FramerJS/example-1/design
+Could not read data file
+plan-list: Exporting image
+PROGRESS: 6.25
+logo-selected: Exporting image
+PROGRESS: 12.5
+category-selector: Exporting image
+other: Exporting image
+PROGRESS: 31.25
+dating: Exporting image
+PROGRESS: 37.5
+travel: Exporting image
+PROGRESS: 43.75
+meeting: Exporting image
+PROGRESS: 50
+sport: Exporting image
+PROGRESS: 56.25
+birthday: Exporting image
+PROGRESS: 62.5
+party: Exporting image
+PROGRESS: 68.75
+cultural: Exporting image
+PROGRESS: 75
+beers: Exporting image
+PROGRESS: 81.25
+music: Exporting image
+PROGRESS: 87.5
+cinema: Exporting image
+PROGRESS: 93.75
+restaurant: Exporting image
+PROGRESS: 100
+PROGRESS: 100
+PROGRESS: 100
+16 views changed
+Writing ~/Desktop/FramerJS/example-1/design/index.html
+Writing ~/Desktop/FramerJS/example-1/design/app.js
+Writing ~/Desktop/FramerJS/example-1/design/framer/framer.js
+Writing ~/Desktop/FramerJS/example-1/design/framer/framerps.js
+
+SUCCESS: ~/Desktop/FramerJS/example-1/design

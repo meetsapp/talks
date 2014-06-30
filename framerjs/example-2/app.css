@@ -1,0 +1,12 @@
+.field {
+	width: 100%;
+	height: 100%;
+	-webkit-box-sizing: border-box;
+	background: transparent;
+	font: 32px/1em Sans-serif;
+	color: rgba(0, 0, 0, 0.7);
+	padding: 0 0 0 70px;
+	margin: 0;
+}
+.field::-webkit-input-placeholder { color: rgba(0, 0, 0, 0.4); }
+.field:focus { box-shadow: none; outline: none; }
